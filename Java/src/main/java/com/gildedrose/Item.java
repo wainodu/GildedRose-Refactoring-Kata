@@ -1,10 +1,10 @@
 package com.gildedrose;
 
-public class Item {
+class Item {
 
     public String name;
 
-    public int sellIn;
+    public Integer sellIn;
 
     public int quality;
 
@@ -14,8 +14,8 @@ public class Item {
         this.quality = quality;
     }
 
-   @Override
-   public String toString() {
+    @Override
+    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
 }
